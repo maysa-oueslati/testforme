@@ -1,0 +1,31 @@
+.ant-notification,
+.ant-popover,
+.ant-select-dropdown,
+.ant-cascader-menu,
+.ant-cascader-menus {
+  z-index: 1000000000001 !important;
+}
+
+.ant-tooltip {
+  z-index: 1000000000001 !important;
+}
+
+.ant-popover-inner-content {
+  padding: 0 !important;
+}
+
+button.ant-btn {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-btn > .MuiSvgIcon-root + span, .ant-btn > span + .MuiSvgIcon-root {
+    margin-left: 8px;
+}
+
+.ant-layout.layout {
+  width: 600px;
+  margin: 200px auto 0;
+  padding: 80px 100px 60px;
+}
